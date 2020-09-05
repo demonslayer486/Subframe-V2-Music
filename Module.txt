@@ -1,0 +1,14 @@
+const { MessageEmbed } = require("discord.js");
+module.exports = {
+  name: "Commands Name", // Change the Command Nmae
+  description: "There is a big chance I insult you!",
+  category: "fun",
+   aliases: [],
+  run: async (client, message, args) => {
+  
+  }
+}
+
+NzM0MTk2NjE2OTQ4NjEzMTIw.XxOL-w.H1unuvCw3kX6sy031Nsi2QNCmcQ Subframe V2.0.2
+NzM0MTkxMTAxMDk0Nzg5MTcy.XxOG3A.ab9WkuXLeC395nh1x2yR7TfTqfI Subframe V2.0.1
+NzAwNDgxNjYwOTAyNDQxMDIw.XvaDkw.DtKRa-uyqvqhPDNUyUKJkacRqEg Subframe V2

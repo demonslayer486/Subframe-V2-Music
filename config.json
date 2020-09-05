@@ -1,0 +1,12 @@
+{
+  "TOKEN": "NzAwNDgxNjYwOTAyNDQxMDIw",   
+  "default_prefix": "$",
+  "OWNER_ID": "492340582543523840",
+  "OwnerID": "492340582543523840",
+  "OwnerID2": "445523810788179969",
+  "prefix": "$",
+    "ServerID": "736353883336736849",
+  "Mongo": "mongodb+srv://DemonS:DemonS2121@cluster0.hrqmx.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "mongoPath": "mongodb+srv://DemonS:DemonS2121@cluster0.hrqmx.mongodb.net/<dbname>?retryWrites=true&w=majority"
+
+}
