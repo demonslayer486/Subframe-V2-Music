@@ -108,8 +108,8 @@ module.exports = {
       if (!data.BankBal == null) {
         return message.send("Please don't lie to me ;-;")
         
-        if (!data.WalletBal || data.WalletBal == 0) return message.channel.send("Your bank is empty.");
-    if (amount > data.WalletBal) return message.channel.send(`Hold on there ${message.author.username} you don't have enough credits to withdarw it ;-;`);
+        if (!data.BankBal || data.BankBal == 0) return message.channel.send("Your bank is empty.");
+    if (amount > data.BankBal) return message.channel.send(`Hold on there ${message.author.username} you don't have enough credits to withdarw it ;-;`);
     if (amount === 0) return message.channel.send(`It seems like your bank is emty please work to get some money`);
       } 
       
