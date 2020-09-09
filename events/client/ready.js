@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 const db = require("quick.db");
 module.exports=client=>{
 
-  client.user.setStatus("idle")
+  //client.user.setStatus("idle")
   console.log(`Im in ${client.guilds.cache.size} guilds! and I am serving ${client.users.cache.size} members`)
   console.log(`${client.user.username} is now Online!`)
    console.log(`Bot name:`, client.user.username)
@@ -20,10 +20,10 @@ module.exports=client=>{
   .then(user => console.log(`New avatar set!`))
   .catch(console.error); 
   Might need at a later date*/
-client.user.setPresence({ activity: { name: `$help |  ${status}` }, status: 'dnd' })
+client.user.setPresence({ activity: { name: `$help | ${status}` }, status: 'dnd' })
   .then(console.log)
   .catch(console.error);
-  client.channels.fetch('744366696915271710').then((channel) => {
+  client.channels.fetch('747235036062941246').then((channel) => {
    let embed = new Discord.MessageEmbed()
    .setTitle("") 
    .addFields(
