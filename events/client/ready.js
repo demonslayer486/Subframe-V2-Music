@@ -20,7 +20,7 @@ module.exports=client=>{
   .then(user => console.log(`New avatar set!`))
   .catch(console.error); 
   Might need at a later date*/
-client.user.setPresence({ activity: { name: `$help | ${status}` }, status: 'dnd' })
+client.user.setPresence({ activity: { name: `$help | ${status}` }, status: 'idle' })
   .then(console.log)
   .catch(console.error);
   client.channels.fetch('747235036062941246').then((channel) => {
