@@ -3,9 +3,9 @@ const { MessageEmbed } = require("discord.js");
 const EmbedColor = "RANDOM";
 const ErrorMessage = `Error In Creating Poll | Please Try Again Later!`;
 const ErrorEmbedColor = "RED";
-const Poll_Emoji_1 = "726197223867809866";
-const Poll_Emoji_2 = "739574021527568394";
-const Poll_Emoji_3 = "739241827017818203";
+const Poll_Emoji_1 = "✔️";
+const Poll_Emoji_2 = "🤷🏻‍♂️";
+const Poll_Emoji_3 = "❌";
 const Prefix = "$";
 
 module.exports = {
